@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index | Home</title>
+        <link rel="stylesheet" href="{% static "stylesheets/index.css" %}">
+    </head>
+    <body>
+        <div>
+            <a href="#"><h3>manit.bhopal@gmail.com</h3></a>
+            <a href="/admin/" target="_blank" class="admin"><input class="admin" type="button" value="Admin"></a>
+        </div>
+        <br>
+        <div>
+            <h2>
+                <img src="{% static "images/Maulana_Azad_National_Institute_of_Technology_Logo.png" %}" width="35" height="35" alt="Image not found">
+                    Maulana Azad National Institute of Technology
+            </h2>
+        </div>
+        <br><br><br><br><br>
+        <div class="module">
+            <h1>ADMISSIONS</h1><br><br>
+            <a href="/ad/newadm" target="_blank"><input type="button" name="button" value="Add Admission"></a><br><br>
+            <a href="/ad/admreport" target="_blank"><input type="button" name="button" value="Admission Report"></a><br><br>
+            <a href="/ad/newvendor" target="_blank"><input type="button" name="button" value="Add Vendor"></a><br><br>
+        </div>
+
+        <div class="module">
+            <h1>FINANCE</h1><br><br>
+            <a href="/fin/feecollection" target="_blank"><input type="button" name="button" value="Fee Collection"></a><br><br>
+            <a href="/fin/duereport" target="_blank"><input type="button" name="button" value="Fee Due Report"></a><br><br>
+            <a href="/fin/collectionreport" target="_blank"><input type="button" name="button" value="Fee Collection Report"></a><br><br>
+        </div><br><br><br><br>
+
+    <br><br>
+    <a href="/accounts/logout"><input class="admin" type="button" value="Logout"</a>
+    <br><br>
+    <!--{% for key,value in request.session.items %}
+        {{key}} - {{value}}
+        <br>
+    {% endfor %}-->
+
+
+    </body>
+</html>
