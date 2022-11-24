@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+    </head>
+    <body>
+        <form method="POST">
+            <h1>Dear User, Please Login Here!</h1>
+            <table>
+                {{form.as_table}}  <!-- form has created by the in-built User Model-->
+            </table>
+                <br><br>
+            <input type="submit" value="LOGIN">
+
+            {%csrf_token%}
+
+        </form>
+    </body>
+</html>

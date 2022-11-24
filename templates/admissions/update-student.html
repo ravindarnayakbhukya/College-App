@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update Student</title>
+        <link rel="stylesheet" href="{% static "stylesheets/add admissions.css" %}">
+    </head>
+    <body>
+        <h1>Hello, Welcome to Update page!</h1>
+        <h2>Please update the application form given below.</h2><br>
+
+        <form class="form" method="POST">
+            <table>
+                {{forms.as_table}}
+            </table><br><br><br>
+            <input type="submit" name="submit" value="Update">
+
+            {% csrf_token %}
+
+        </form>
+
+    </body>
+</html>

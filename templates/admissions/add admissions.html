@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>add admissions</title>
+        <link rel="stylesheet" href="{% static "stylesheets/add admissions.css" %}">
+    </head>
+    <body>
+        <h1>Hello, Welcome to add admissions page!</h1>
+        <h2>Please fill the application form given below.</h2><br>
+
+        <form class="form" method="POST">
+            <table>
+                {{forms.as_table}}
+            </table><br><br><br>
+            <input type="submit" name="submit" value="Add Student">
+
+            {% csrf_token %}
+
+        </form>
+        <br><br>
+        {% for key,value in request.session.items %}
+            {{key}} - {{value}}
+            <br>
+        {% endfor %}
+
+
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teacher List</title>
+    </head>
+    <body>
+        <h1>Teacher Report 2022-23</h1>
+        <table border="2">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Experience</th>
+            <th>Contact</th>
+            <th>Actions</th>
+        </tr>
+        {% for s in teacher_list %}
+        <tr>
+            <td><a href="/ad/teacherdetail/{{s.id}}">{{s.id}}</a></td>
+            <td>{{s.name}}</td>
+            <td>{{s.subject}}</td>
+            <td>{{s.experience}}</td>
+            <td>{{s.contact}}</td>
+            <td><a href="/ad/updateteacher/{{s.id}}"><input type="button" value="Update"></a> &nbsp;
+            <a href="/ad/deleteteacher/{{s.id}}"><input type="button" value="Delete"></a></td>
+        </tr>
+        {% endfor %}
+        </table>
+
+        <br><br>
+
+        <a href="/ad/newadm"><input type="button" name="button" value="Add Teacher"></a>
+        <a href="/"><input type="button" name="button" value="Go To Home"></a>
+
+
+    </body>
+</html>
