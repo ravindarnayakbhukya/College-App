@@ -6,6 +6,7 @@ This is a College website application. I have created this using Python Django f
 
 Here is the screenshot of the website: https://github.com/ravindarnayakbhukya/College-App/blob/main/MANIT.png
 
-To open the website, we must run server in Command Prompt and login  with valid credentials. So as of now, we can preview 
-the html code: https://github.com/ravindarnayakbhukya/College-App/blob/main/index.html and 
+To open the website, we must run server in Command Prompt and login  with valid credentials. So as of now, we can preview the 
+views.py code: 
+html code: https://github.com/ravindarnayakbhukya/College-App/blob/main/index.html and 
 css code: https://github.com/ravindarnayakbhukya/College-App/blob/main/index.css.
