@@ -5,7 +5,7 @@ This is a College website application. I have created this using Python Django f
 
 Key skills/expertise involved: Django, MySQL, HTML, CSS, JavaScript, Database, Web API, Admin UI, Authentication, Authorization
 
-https://ravindarnayakbhukya.github.io/College-App/ 
+Website link: https://ravindarnayakbhukya.github.io/College-App/                                        
 To open the website, we must run server in Command Prompt and login  with valid credentials. So as of now, we can preview the                     
 views.py code: https://github.com/ravindarnayakbhukya/College-App/blob/main/admissions/views.py ,                 
 HTML Code: https://github.com/ravindarnayakbhukya/College-App/blob/main/index.html and                  
