@@ -6,8 +6,8 @@ This is a College website application. This website consists of Admissions and F
 Key skills/expertise involved: Django, MySQL, HTML, CSS, JavaScript, Database, Web API, Admin UI, Authentication, Authorization
 
                                         
-To open the website, we must run server in Command Prompt and login  with valid credentials.
-Website link: https://ravindarnayakbhukya.github.io/College-App/
+To open the website, we must run server in Command Prompt and login  with valid credentials.                                                                            
+Website link: https://ravindarnayakbhukya.github.io/College-App/                                                                                
 So as of now, we can preview the -                     
 views.py Code: https://github.com/ravindarnayakbhukya/College-App/blob/main/admissions/views.py ,                 
 HTML Code: https://github.com/ravindarnayakbhukya/College-App/blob/main/index.html and                  
